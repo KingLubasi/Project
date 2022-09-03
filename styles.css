@@ -1,50 +1,9 @@
-body {
-    background-color: whitesmoke;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.header {
-    width: auto;
-    height: 125px;
-    padding: 0;
-    margin-top: 0;
-    background: whitesmoke;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h1 {
-    font-family: "Trirong", serif;
-    color: black;
-    height: 25px;
-    padding: 0;
-    margin-top: 0;
-    margin-left: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: whitesmoke;
-    font-family: "Trirong", serif;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: white;
+@layer base {
+  html {
+    font-family: 'Euclid Circular B', sans-serif;
   }
+}
